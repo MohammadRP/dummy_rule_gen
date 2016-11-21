@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS=-I.
 
 all:
-	$(CC) -o main.o main.c -I.
+	$(CC) -o dummy_rule_gen main.c -I.
 	
 	
 clean:
